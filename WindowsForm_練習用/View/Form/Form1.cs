@@ -48,6 +48,7 @@ namespace WindowsForm_練習用
             var dataGridViewComboBoxColumn = new DataGridViewComboBoxColumn();
             dataGridViewComboBoxColumn.DataPropertyName = nameof(ComboBoxChoices);
             dataGridViewComboBoxColumn.HeaderText = "データ";
+            dataGridViewComboBoxColumn.DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
             dataGridViewComboBoxColumn.DataSource = dataTable;
             dataGridViewComboBoxColumn.DisplayMember = "Display";
             dataGridViewComboBoxColumn.ValueMember = "Value";
