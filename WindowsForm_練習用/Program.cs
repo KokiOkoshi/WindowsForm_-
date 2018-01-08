@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsForm_練習用
+namespace WindowsForm_practice
 {
     static class Program
     {

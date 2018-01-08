@@ -1,6 +1,6 @@
-﻿namespace WindowsForm_練習用
+﻿namespace WindowsForm_practice.View.CustomControl
 {
-    partial class Form1
+    partial class CustomComboBox
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -20,20 +20,17 @@
             base.Dispose(disposing);
         }
 
-        #region Windows フォーム デザイナーで生成されたコード
+        #region コンポーネント デザイナーで生成されたコード
 
         /// <summary>
-        /// デザイナー サポートに必要なメソッドです。このメソッドの内容を
+        /// デザイナー サポートに必要なメソッドです。このメソッドの内容を 
         /// コード エディターで変更しないでください。
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            components = new System.ComponentModel.Container();
         }
 
         #endregion
     }
 }
-
