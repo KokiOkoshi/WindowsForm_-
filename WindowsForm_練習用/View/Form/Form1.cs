@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsForm_練習用.Model;
+using WindowsForm_練習用.View.CustomControl;
 
 namespace WindowsForm_練習用
 {
@@ -46,6 +47,7 @@ namespace WindowsForm_練習用
 
             //DataGridViewComboBoxColumsを作成
             var dataGridViewComboBoxColumn = new DataGridViewComboBoxColumn();
+            dataGridViewComboBoxColumn.CellTemplate = new DataGridViewCustomComboBoxCell();
             dataGridViewComboBoxColumn.DataPropertyName = nameof(ComboBoxChoices);
             dataGridViewComboBoxColumn.HeaderText = "データ";
             dataGridViewComboBoxColumn.DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;

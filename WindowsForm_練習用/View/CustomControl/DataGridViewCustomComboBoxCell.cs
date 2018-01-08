@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace WindowsForm_練習用.View.CustomControl
 {
-    class DataGridViewCustomComboBoxCell : DataGridViewTextBoxCell
+    class DataGridViewCustomComboBoxCell : DataGridViewComboBoxCell
     {
         /// <summary>
         /// コンストラクタ
@@ -33,14 +33,6 @@ namespace WindowsForm_練習用.View.CustomControl
                 // Textを設定
                 string str = initialFormattedValue as string;
                 customComboBoxEditControl.Text = str != null ? str : "";
-
-                // カスタム列のプロパティを反映させる
-                var column = this.OwningColumn as DataGridViewCustomComboBoxColumn;
-                if (column != null)
-                {
-                    // 拡張したのプロパティがアレばここでコピー
-                    // customComboBoxEditControl.Property = column.Property;
-                }
             }
         }
 

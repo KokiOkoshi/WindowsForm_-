@@ -59,7 +59,6 @@
       <DependentUpon>CustomDataGridView.cs</DependentUpon>
     </Compile>
     <Compile Include="View\CustomControl\DataGridViewCustomComboBoxCell.cs" />
-    <Compile Include="View\CustomControl\DataGridViewCustomComboBoxColumn.cs" />
     <Compile Include="View\CustomControl\DataGridViewCustomComboBoxEditingControl.cs">
       <SubType>Component</SubType>
     </Compile>
