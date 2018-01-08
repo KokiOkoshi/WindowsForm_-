@@ -40,14 +40,14 @@
             this.customDataGridView1.Location = new System.Drawing.Point(0, 0);
             this.customDataGridView1.Name = "customDataGridView1";
             this.customDataGridView1.RowTemplate.Height = 21;
-            this.customDataGridView1.Size = new System.Drawing.Size(284, 261);
+            this.customDataGridView1.Size = new System.Drawing.Size(686, 499);
             this.customDataGridView1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(686, 499);
             this.Controls.Add(this.customDataGridView1);
             this.Name = "Form1";
             this.Text = "Form1";
