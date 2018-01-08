@@ -1,4 +1,4 @@
-﻿namespace WindowsForm_practice.View.CustomControl
+﻿namespace WindowsForm_練習用.View.CustomControl
 {
     partial class CustomComboBox
     {

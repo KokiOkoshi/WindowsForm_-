@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsForm_practice.View.CustomControl
+namespace WindowsForm_練習用.View.CustomControl
 {
     public partial class CustomComboBox : ComboBox
     {

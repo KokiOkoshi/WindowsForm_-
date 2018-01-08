@@ -1,4 +1,4 @@
-﻿namespace WindowsForm_practice
+﻿namespace WindowsForm_練習用
 {
     partial class Form1
     {
@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.customDataGridView1 = new WindowsForm_practice.View.CustomControl.CustomDataGridView();
+            this.customDataGridView1 = new WindowsForm_練習用.View.CustomControl.CustomDataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.customDataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // customDataGridView1
             // 
+            this.customDataGridView1.AllowUserToOrderColumns = true;
             this.customDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.customDataGridView1.Location = new System.Drawing.Point(13, 13);
+            this.customDataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customDataGridView1.Location = new System.Drawing.Point(0, 0);
             this.customDataGridView1.Name = "customDataGridView1";
             this.customDataGridView1.RowTemplate.Height = 21;
-            this.customDataGridView1.Size = new System.Drawing.Size(259, 236);
+            this.customDataGridView1.Size = new System.Drawing.Size(284, 261);
             this.customDataGridView1.TabIndex = 0;
             // 
             // Form1

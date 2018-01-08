@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsForm_practice.Properties
+namespace WindowsForm_練習用.Properties
 {
 
 
