@@ -15,6 +15,20 @@ namespace WindowsForm_練習用.View.CustomControl
         public DataGridViewCustomComboBoxEditingControl()
         {
             this.TabStop = false;
+            this.Enter += DataGridViewCustomComboBoxEditingControl_Enter;
+            this.DropDownClosed += DataGridViewCustomComboBoxEditingControl_DropDownClosed; 
+        }
+
+        private void DataGridViewCustomComboBoxEditingControl_DropDownClosed(object sender, EventArgs e)
+        {
+            this.BeginInvoke((MethodInvoker)(()=> {
+                this.EditingControlDataGridView.EndEdit();
+            }));
+        }
+
+        private void DataGridViewCustomComboBoxEditingControl_Enter(object sender, EventArgs e)
+        {
+            this.DroppedDown = true;
         }
     }
 }
