@@ -18,6 +18,20 @@ namespace WindowsForm_練習用
         {
             InitializeComponent();
             DataSet();
+            customDataGridView1.MouseDown += CustomDataGridView1_MouseDown;
+        }
+
+        private void CustomDataGridView1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if( customDataGridView1.IsCurrentCellInEditMode)
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>
