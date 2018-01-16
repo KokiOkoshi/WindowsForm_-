@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsForm_練習用.Resource;
 using WindowsForm_練習用.Model;
 using WindowsForm_練習用.View.CustomControl;
 
@@ -56,8 +57,8 @@ namespace WindowsForm_練習用
             var dataTable = new DataTable();
             dataTable.Columns.Add("Display",typeof(string));
             dataTable.Columns.Add("Value", typeof(ComboBoxChoices));
-            dataTable.Rows.Add("データ1", ComboBoxChoices.data1);
-            dataTable.Rows.Add("データ2", ComboBoxChoices.data2);
+            dataTable.Rows.Add(StringResource.Data1, ComboBoxChoices.data1);
+            dataTable.Rows.Add(StringResource.Data2, ComboBoxChoices.data2);
 
             //DataGridViewComboBoxColumsを作成
             var dataGridViewComboBoxColumn = new DataGridViewComboBoxColumn();
