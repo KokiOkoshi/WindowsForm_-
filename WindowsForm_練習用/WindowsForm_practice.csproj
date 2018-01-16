@@ -108,8 +108,5 @@
   <ItemGroup>
     <Folder Include="View\UserControl\" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Image1.bmp" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -61,17 +61,30 @@ namespace WindowsForm_練習用
             dataTable.Rows.Add(StringResource.Data2, ComboBoxChoices.data2);
 
             //DataGridViewComboBoxColumsを作成
-            var dataGridViewComboBoxColumn = new DataGridViewComboBoxColumn();
-            dataGridViewComboBoxColumn.CellTemplate = new DataGridViewCustomComboBoxCell();
-            dataGridViewComboBoxColumn.DataPropertyName = nameof(ComboBoxChoices);
-            dataGridViewComboBoxColumn.HeaderText = "データ";
-            dataGridViewComboBoxColumn.DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
-            dataGridViewComboBoxColumn.DataSource = dataTable;
-            dataGridViewComboBoxColumn.DisplayMember = "Display";
-            dataGridViewComboBoxColumn.ValueMember = "Value";
+            var dataGridViewComboBoxColumn1 = new DataGridViewComboBoxColumn();
+            dataGridViewComboBoxColumn1.CellTemplate = new DataGridViewCustomComboBoxCell();
+            dataGridViewComboBoxColumn1.DataPropertyName = nameof(ComboBoxData.ComboBoxChoices1);
+            dataGridViewComboBoxColumn1.HeaderText = "データ";
+            dataGridViewComboBoxColumn1.DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
+            dataGridViewComboBoxColumn1.DataSource = dataTable;
+            dataGridViewComboBoxColumn1.DisplayMember = "Display";
+            dataGridViewComboBoxColumn1.ValueMember = "Value";
 
             //DataGridViewに列を追加
-            customDataGridView1.Columns.Add(dataGridViewComboBoxColumn);
+            customDataGridView1.Columns.Add(dataGridViewComboBoxColumn1);
+
+            //DataGridViewComboBoxColumsを作成
+            var dataGridViewComboBoxColumn2 = new DataGridViewComboBoxColumn();
+            dataGridViewComboBoxColumn2.CellTemplate = new DataGridViewCustomComboBoxCell();
+            dataGridViewComboBoxColumn2.DataPropertyName = nameof(ComboBoxData.ComboBoxChoices2);
+            dataGridViewComboBoxColumn2.HeaderText = "データ";
+            dataGridViewComboBoxColumn2.DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
+            dataGridViewComboBoxColumn2.DataSource = dataTable;
+            dataGridViewComboBoxColumn2.DisplayMember = "Display";
+            dataGridViewComboBoxColumn2.ValueMember = "Value";
+
+            //DataGridViewに列を追加
+            customDataGridView1.Columns.Add(dataGridViewComboBoxColumn2);
         }
     }
 }

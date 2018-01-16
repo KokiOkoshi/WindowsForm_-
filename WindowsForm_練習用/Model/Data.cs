@@ -26,11 +26,13 @@ namespace WindowsForm_練習用.Model
         //コンストラクタ
         public ComboBoxData()
         {
-            ComboBoxChoices = ComboBoxChoices.data1;
+            this.ComboBoxChoices1 = ComboBoxChoices.data1;
+            this.ComboBoxChoices2 = ComboBoxChoices.data2;
         }
 
         // Data
-        public ComboBoxChoices ComboBoxChoices { get; set; }
+        public ComboBoxChoices ComboBoxChoices1 { get; set; }
+        public ComboBoxChoices ComboBoxChoices2 { get; set; }
     }
 
     enum ComboBoxChoices
