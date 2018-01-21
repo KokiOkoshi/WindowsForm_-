@@ -8,12 +8,12 @@ using System.Windows.Forms;
 
 namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
 {
-    class DataGridViewCustomComboBoxCell : DataGridViewComboBoxCell
+    class DataGridViewCustomTextBoxCell : DataGridViewTextBoxCell
     {
         /// <summary>
         /// コンストラクタ
         /// </summary>
-        public DataGridViewCustomComboBoxCell()
+        public DataGridViewCustomTextBoxCell()
         {
         }
 
@@ -28,7 +28,7 @@ namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
             base.InitializeEditingControl(rowIndex, initialFormattedValue, dataGridViewCellStyle);
 
             // 編集コントロールを取得
-            var customComboBoxEditControl = this.DataGridView.EditingControl as DataGridViewCustomComboBoxEditingControl;
+            var customComboBoxEditControl = this.DataGridView.EditingControl as DataGridViewCustomTextBoxEditingControl;
             if (customComboBoxEditControl != null)
             {
                 // Textを設定
@@ -40,7 +40,7 @@ namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
         /// <summary>
         /// 編集コントロールの型
         /// </summary>
-        public override Type EditType => typeof(DataGridViewCustomComboBoxEditingControl);
+        public override Type EditType => typeof(DataGridViewCustomTextBoxEditingControl);
 
         /// <summary>
         /// セルの値のデータ型
