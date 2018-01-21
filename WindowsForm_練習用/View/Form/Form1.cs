@@ -20,6 +20,9 @@ namespace WindowsForm_練習用
             InitializeComponent();
             DataSet();
             customDataGridView1.MouseDown += CustomDataGridView1_MouseDown;
+            customDataGridView1.RowHeadersVisible = false;
+            customDataGridView1.ColumnHeadersVisible = false;
+            customDataGridView1.AllowUserToResizeRows = false;
         }
 
         private void CustomDataGridView1_MouseDown(object sender, MouseEventArgs e)
