@@ -52,10 +52,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StringResource.resx</DependentUpon>
     </Compile>
-    <Compile Include="View\CustomControl\CustomComboBox.cs">
+    <Compile Include="View\CustomControl\CustomComboBox\CustomComboBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="View\CustomControl\CustomComboBox.Designer.cs">
+    <Compile Include="View\CustomControl\CustomComboBox\CustomComboBox.Designer.cs">
       <DependentUpon>CustomComboBox.cs</DependentUpon>
     </Compile>
     <Compile Include="View\CustomControl\CustomDataGridView.cs">
@@ -64,8 +64,8 @@
     <Compile Include="View\CustomControl\CustomDataGridView.Designer.cs">
       <DependentUpon>CustomDataGridView.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\CustomControl\DataGridViewCustomComboBoxCell.cs" />
-    <Compile Include="View\CustomControl\DataGridViewCustomComboBoxEditingControl.cs">
+    <Compile Include="View\CustomControl\CustomComboBox\DataGridViewCustomComboBoxCell.cs" />
+    <Compile Include="View\CustomControl\CustomComboBox\DataGridViewCustomComboBoxEditingControl.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="View\Form\Form1.cs">
