@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsForm_練習用.Resource;
 using WindowsForm_練習用.Model;
-using WindowsForm_練習用.View.CustomControl;
+using WindowsForm_練習用.View.CustomControl.CustomComboBox;
 
 namespace WindowsForm_練習用
 {

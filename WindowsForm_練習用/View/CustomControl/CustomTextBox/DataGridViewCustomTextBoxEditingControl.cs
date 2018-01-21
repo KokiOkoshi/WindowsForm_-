@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace WindowsForm_練習用.View.CustomControl.CustomComboBox
+namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
 {
     class DataGridViewCustomComboBoxEditingControl : DataGridViewComboBoxEditingControl
     {

@@ -52,6 +52,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StringResource.resx</DependentUpon>
     </Compile>
+    <Compile Include="View\CustomControl\CustomTextBox\CustomTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\CustomControl\CustomTextBox\CustomTextBox.Designer.cs">
+      <DependentUpon>CustomTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomControl\CustomTextBox\DataGridViewCustomTextBoxCell.cs" />
+    <Compile Include="View\CustomControl\CustomTextBox\DataGridViewCustomTextBoxEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="View\CustomControl\CustomComboBox\CustomComboBox.cs">
       <SubType>Component</SubType>
     </Compile>

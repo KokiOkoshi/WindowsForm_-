@@ -1,6 +1,6 @@
-﻿namespace WindowsForm_練習用.View.CustomControl.CustomComboBox
+﻿namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
 {
-    partial class CustomComboBox
+    partial class CustomTextBox
     {
         /// <summary>
         /// 必要なデザイナー変数です。

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsForm_練習用.View.CustomControl.CustomComboBox
+namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
 {
-    public partial class CustomComboBox : ComboBox
+    public partial class CustomTextBox : TextBox
     {
-        public CustomComboBox()
+        public CustomTextBox()
         {
             InitializeComponent();
         }
