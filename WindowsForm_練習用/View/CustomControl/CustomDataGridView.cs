@@ -17,9 +17,10 @@ namespace WindowsForm_練習用.View.CustomControl
             InitializeComponent();
         }
 
-        protected override void OnPaint(PaintEventArgs pe)
+        protected override void OnCellMouseDown(DataGridViewCellMouseEventArgs e)
         {
-            base.OnPaint(pe);
+            //候補(ここでセルの選択をキャンセルできる)
+            base.OnCellMouseDown(e);
         }
     }
 }
