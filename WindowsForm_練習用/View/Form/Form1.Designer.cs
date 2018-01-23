@@ -28,37 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.customDataGridView1 = new WindowsForm_練習用.View.CustomControl.CustomDataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.customDataGridView1)).BeginInit();
+            this.customGrid1 = new WindowsForm_練習用.View.CustomControl.CustomGrid.CustomGrid();
             this.SuspendLayout();
             // 
-            // customDataGridView1
+            // customGrid1
             // 
-            this.customDataGridView1.AllowUserToOrderColumns = true;
-            this.customDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.customDataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.customDataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.customDataGridView1.Name = "customDataGridView1";
-            this.customDataGridView1.RowTemplate.Height = 21;
-            this.customDataGridView1.Size = new System.Drawing.Size(686, 499);
-            this.customDataGridView1.TabIndex = 0;
+            this.customGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customGrid1.Location = new System.Drawing.Point(0, 0);
+            this.customGrid1.Name = "customGrid1";
+            this.customGrid1.Size = new System.Drawing.Size(686, 499);
+            this.customGrid1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(686, 499);
-            this.Controls.Add(this.customDataGridView1);
+            this.Controls.Add(this.customGrid1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.customDataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private View.CustomControl.CustomDataGridView customDataGridView1;
+        private View.CustomControl.CustomGrid.CustomGrid customGrid1;
     }
 }
 

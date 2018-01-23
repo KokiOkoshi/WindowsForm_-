@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
+namespace WindowsForm_練習用.View.CustomControl.CustomGridCell
 {
     public partial class CustomTextBox : TextBox
     {

@@ -3,14 +3,14 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
+namespace WindowsForm_練習用.View.CustomControl.CustomGridCell
 {
-    class DataGridViewCustomTextBoxEditingControl : DataGridViewTextBoxEditingControl
+    class CustomGridEditingControl : DataGridViewTextBoxEditingControl
     {
         /// <summary>
         /// コンストラクタ
         /// </summary>
-        public DataGridViewCustomTextBoxEditingControl()
+        public CustomGridEditingControl()
         {
             this.TabStop = false;
         }

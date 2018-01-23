@@ -52,14 +52,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StringResource.resx</DependentUpon>
     </Compile>
-    <Compile Include="View\CustomControl\CustomTextBox\CustomTextBox.cs">
+    <Compile Include="View\CustomControl\CustomGrid\CustomGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\CustomControl\CustomGrid\CustomGridColumn.cs" />
+    <Compile Include="View\CustomControl\CustomGrid\CustomGridEditingControl\CustomGridTextBoxEditingControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="View\CustomControl\CustomTextBox\CustomTextBox.Designer.cs">
+    <Compile Include="View\CustomControl\CustomGrid\CustomGridCell\CustomGridTextBoxCell.cs" />
+    <Compile Include="View\CustomControl\Other\CustomTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\CustomControl\Other\CustomTextBox.Designer.cs">
       <DependentUpon>CustomTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\CustomControl\CustomTextBox\DataGridViewCustomTextBoxCell.cs" />
-    <Compile Include="View\CustomControl\CustomTextBox\DataGridViewCustomTextBoxEditingControl.cs">
+    <Compile Include="View\CustomControl\CustomGrid\CustomGridCell\CustomGridCellBase.cs" />
+    <Compile Include="View\CustomControl\CustomGrid\CustomGridEditingControl\CustomGridEditingControl.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="View\CustomControl\CustomComboBox\CustomComboBox.cs">
@@ -68,11 +76,8 @@
     <Compile Include="View\CustomControl\CustomComboBox\CustomComboBox.Designer.cs">
       <DependentUpon>CustomComboBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\CustomControl\CustomDataGridView.cs">
+    <Compile Include="View\CustomControl\CustomGrid\CustomDataGridView.cs">
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="View\CustomControl\CustomDataGridView.Designer.cs">
-      <DependentUpon>CustomDataGridView.cs</DependentUpon>
     </Compile>
     <Compile Include="View\CustomControl\CustomComboBox\DataGridViewCustomComboBoxCell.cs" />
     <Compile Include="View\CustomControl\CustomComboBox\DataGridViewCustomComboBoxEditingControl.cs">

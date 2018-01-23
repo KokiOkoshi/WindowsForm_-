@@ -1,4 +1,4 @@
-﻿namespace WindowsForm_練習用.View.CustomControl.CustomTextBox
+﻿namespace WindowsForm_練習用.View.CustomControl.CustomGridCell
 {
     partial class CustomTextBox
     {

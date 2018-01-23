@@ -14,8 +14,19 @@ namespace WindowsForm_練習用.View.CustomControl
     {
         public CustomDataGridView()
         {
-            InitializeComponent();
             DoubleBuffered = true;
+        }
+
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            DoubleBuffered = false;
+            base.OnMouseDown(e);
+        }
+
+        protected override void OnMouseUp(MouseEventArgs e)
+        {
+            DoubleBuffered = true;
+            base.OnMouseUp(e);
         }
 
         protected override void OnCellMouseDown(DataGridViewCellMouseEventArgs e)
