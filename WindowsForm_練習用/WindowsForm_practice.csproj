@@ -55,7 +55,11 @@
     <Compile Include="View\CustomControl\CustomGrid\CustomGrid.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="View\CustomControl\CustomGrid\CustomGridCell\CustomGridSelectorCell.cs" />
     <Compile Include="View\CustomControl\CustomGrid\CustomGridColumn.cs" />
+    <Compile Include="View\CustomControl\CustomGrid\CustomGridEditingControl\CustomGridSelectorEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="View\CustomControl\CustomGrid\CustomGridEditingControl\CustomGridTextBoxEditingControl.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -29,10 +29,5 @@ namespace WindowsForm_練習用.View.CustomControl
             base.OnMouseUp(e);
         }
 
-        protected override void OnCellMouseDown(DataGridViewCellMouseEventArgs e)
-        {
-            //候補(ここでセルの選択をキャンセルできる)
-            base.OnCellMouseDown(e);
-        }
     }
 }

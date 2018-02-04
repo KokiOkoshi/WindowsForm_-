@@ -30,9 +30,9 @@ namespace WindowsForm_練習用
             this.customGrid1.AddCell(0, 0, new CellData { Cell = new CustomGridTextBoxCell { } });
             this.customGrid1.AddCell(1, 0, new CellData { Cell = new CustomGridTextBoxCell { RightCellMerge = true, Value = "aaaa" , Style = new DataGridViewCellStyle { BackColor = Color.Green} } });
             this.customGrid1.AddCell(2, 0, new CellData { Cell = new CustomGridTextBoxCell { RightCellMerge = true } });
-            this.customGrid1.AddCell(0, 1, new CellData { Cell = new CustomGridTextBoxCell { RightCellMerge = true, Value = "aaaa" } });
-            this.customGrid1.AddCell(1, 1, new CellData { Cell = new CustomGridTextBoxCell { } });
-            this.customGrid1.AddCell(2, 1, new CellData { Cell = new CustomGridTextBoxCell {  } });
+            this.customGrid1.AddCell(0, 1, new CellData { Cell = new CustomGridTextBoxCell { Value = "aaaa" } });
+            this.customGrid1.AddCell(1, 1, new CellData { Cell = new CustomGridSelectorCell { Value = "BBBB"} });
+            this.customGrid1.AddCell(2, 1, new CellData { Cell = new CustomGridSelectorCell {  Value = "CCCC"} });
         }
     }
 }
